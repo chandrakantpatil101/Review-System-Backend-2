@@ -5,14 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-   "start":"cd api && node index.js",
-   "dev":"cd api && nodemon index.js"
+    "start": "cd api && node index.js",
+    "dev": "cd api && nodemon index.js"
   },
   "author": "Akatsuki",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "mongoose": "^8.8.1",
     "nodemon": "^3.1.7"
   }
